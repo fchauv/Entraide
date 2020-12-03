@@ -9,24 +9,43 @@ body
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid black;
 }
 
 #menu
 {
-    border-right: 2px solid black;
+    position: relative;
+    display: inline-block;
 }
+
+#sousMenu
+{
+    display:none;
+    position:absolute;
+    min-width: 200px;
+}
+
 
 #logoMenu
 {
     max-width: 60%;
     height: auto;
+    border: none;
+}
+
+#sousMenu:hover
+{
+    display:block;
+    background-color: #08FE49;
+}
+
+#menu img:hover
+{
+    display:block;
 }
 
 #entraide
 {
     text-align: center;
-    border-right: 2px solid black;
 }
 
 #logo
