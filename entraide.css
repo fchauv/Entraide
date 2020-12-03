@@ -1,0 +1,42 @@
+body
+{
+    background-color: #40CFFA;
+}
+
+#enTete
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+#menu
+{
+    border-right: 2px solid black;
+}
+
+#logoMenu
+{
+    max-width: 60%;
+    height: auto;
+}
+
+#entraide
+{
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+#logo
+{
+    align-self: center;
+    max-width: 30%;
+    height: auto;
+}
+
+#compte
+{
+
+}

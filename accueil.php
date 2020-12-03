@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>accueil</title>
-        <meta charset=utf-8>
+        <meta charset="utf-8">
+        <title>L'Entraide</title>
         <link rel="stylesheet" href="entraide.css">
-    <head>
+    </head>
     <body>
-
+        <?php include("entete.php"); ?>
     </body>
 </html>
