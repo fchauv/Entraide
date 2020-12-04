@@ -1,0 +1,87 @@
+body
+{
+    background-color: #40CFFA;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    padding-bottom: 1.2em;
+}
+
+#enTete
+{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu
+{   
+    position: relative;
+}
+
+.rolls
+{
+    position:fixed;
+    top:0;
+    left:0;
+    padding:0;
+    margin:0;
+    background-color: #40CFFA;
+}
+
+.rolls li
+{
+    width:180px;
+    float:left;
+    text-align: left;
+}
+
+.rolls li ul
+{
+    display:none;
+    height:auto;
+} 
+
+.rolls:hover ul
+{
+    display:block;
+    font-size: 1.05em;
+    padding:1.2em;
+    margin-top: -2em;
+}
+
+
+#logoMenu
+{
+    max-width: 80%;
+    height: auto;
+    border: none;
+}
+
+.theme
+{
+    font-size: 1.6em;
+    margin-left: -0.5em;
+    border-spacing: 1.2em;
+}
+
+#entraide
+{
+    text-align:center;
+}
+
+#logo
+{
+    align-self: center;
+    max-width: 25%;
+    height: auto;
+}
+
+#compte
+{
+    font-size: 1.8em;
+}
