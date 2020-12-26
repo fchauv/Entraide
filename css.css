@@ -44,7 +44,12 @@ a{
 {
     display:none;
     height:auto;
-} 
+}
+
+.rolls:hover
+{
+    border-right: solid;
+}
 
 .rolls:hover ul
 {
@@ -52,6 +57,7 @@ a{
     font-size: 1.05em;
     padding:1.2em;
     margin-top: -2em;
+    border-bottom: solid;
 }
 
 
@@ -60,6 +66,12 @@ a{
     max-width: 80%;
     height: auto;
     border: none;
+}
+
+#logoCompte
+{
+    max-width: 20%;
+    height: auto;
 }
 
 .theme
@@ -84,4 +96,43 @@ a{
 #compte
 {
     font-size: 1.8em;
+}
+
+#formulaire
+{
+    position:absolute;
+    font-size: 2em;
+    top:180px;
+    right:36px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #08FE49;
+    text-align: right;
+    border-radius: 16px;
+    border-style: solid;
+    margin-block-end: 0;
+}
+#formulaire #bouton
+{
+    font-size: inherit;
+    border-radius: 4px;
+}
+
+#formulaire #bouton:hover
+{
+    color:#AAAAAA;
+}
+
+#formulaire p
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+}
+
+pre
+{
+    margin-block-end: 0;
+    margin-block-start: 0;
 }
